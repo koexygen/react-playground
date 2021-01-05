@@ -1,4 +1,5 @@
 import Accordion from "./components/Accordion";
+import Translate from "./components/Translate";
 
 const items = [
   { title: "What is React?", content: "React is javascript front-end library" },
@@ -15,7 +16,7 @@ const items = [
 function App() {
   return (
     <div className="App">
-      <Accordion items={items} />
+      <Translate />
     </div>
   );
 }
