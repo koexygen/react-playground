@@ -19,6 +19,10 @@ const items = [
     title: "What is React3?",
     content: "React is javascript front-end library",
   },
+  {
+    title: "What is React3?",
+    content: "React is javascript front-end library",
+  },
 ];
 
 function App() {
