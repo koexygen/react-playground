@@ -11,9 +11,6 @@ class StreamCreate extends React.Component {
     );
   }
 
-
-
-
   onSubmit(values) {
     console.log(values);
   }
@@ -35,6 +32,10 @@ class StreamCreate extends React.Component {
     );
   }
 }
+
+const validate = (formValues) => {
+  const errors = {};
+};
 
 export default reduxForm({
   form: "streamCreate",
